@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//
 #define SCALE_CM_TO_METER_FACTOR                 100
 
 #define HEIGHT_SQUARE_METERS(heightCmInt)        (heightCmInt*heightCmInt / SCALE_CM_TO_METER_FACTOR) 
